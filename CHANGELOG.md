@@ -7,6 +7,14 @@ follows [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 The version number shown here matches the `<meta name="app-version">` tag in
 `index.html` and the `v{version}` badge in the page's footer.
 
+## [0.8.0] — 2026-10-20
+
+### Added
+- **Namibia (`na`)** is now a selectable site: `SITE_LABELS`, `MISSING_LANGS` (11 languages still blank
+  on the public site) and `PROVIDER_DIRECTORY.na` (MTC, tn mobile, Telecom Namibia, Paratus Namibia,
+  Africa Online Namibia — same entries as `naispqosd` v1.0.0's `DATA`). Its own deployment is
+  `naispqosp`.
+
 ## [0.7.1] — 2026-10-07
 
 ### Changed
